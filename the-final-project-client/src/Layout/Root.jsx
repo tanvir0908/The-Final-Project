@@ -4,7 +4,7 @@ import Navbar from "../pages/Home/Home/Shared/Navbar/Navbar";
 
 export default function Root() {
   return (
-    <div>
+    <div className="font-primary">
       <Navbar />
       <Outlet />
       <Footer />
